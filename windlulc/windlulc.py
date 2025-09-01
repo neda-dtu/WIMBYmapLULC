@@ -696,7 +696,7 @@ def translate_match_results(sampledata, match_result, clclookup):
         match_change = clcmatchchange.get(name)
         sample_val = clcsample.get(name)
         if match_val is None or match_change is None or match_val == 0:
-            clcsamplechange[name] = None
+            clcsamplechange[name] = 0
         else:
             clcsamplechange[name] = round((match_change / match_val) * sample_val, 2)
 
@@ -775,3 +775,4 @@ def main(
     mapresult["hull"] = hull_dict
 
     return mapresult
+
