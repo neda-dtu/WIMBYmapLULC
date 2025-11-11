@@ -11,8 +11,6 @@ name = "windlulc"
 version = "2025.08.12"
 dependencies = [
     "pyarrow",
-    "json",
-    "typing",
     "pandas",
     "numpy",
     "geopandas",
