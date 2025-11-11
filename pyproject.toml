@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 classifiers = [
-    "Development Status :: 5 - Production/Stable"
+    "Development Status :: 5 - Production/Stable",
     "Programming Language :: Python",
 ]
 name = "windlulc"
